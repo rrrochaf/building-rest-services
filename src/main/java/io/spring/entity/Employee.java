@@ -13,6 +13,15 @@ public class Employee {
 	private String name;
 	private String role;
 
+	public Employee(){
+		
+	}
+	
+	public Employee(String name, String role){
+		this.name = name;
+		this.role = role;
+	}
+	
 	public Long getId() {
 		return id;
 	}
